@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 pytest = "^7.4.0"
+kivy = {extras = ["full"], version = "^2.2.1"}
 
 
 [build-system]
